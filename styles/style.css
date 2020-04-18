@@ -212,9 +212,26 @@ footer{
     padding-top: 128px;
 }
 
-hr{
+.header-hr{
     background-color: #FF7777;
     margin-top: 64px;
+}
+
+/* Product Styles */
+.product-list{
+    margin-top: 48px;
+}
+
+.product-list h1{
+    font-size: 40px;
+    font-family: Roboto Slab;
+}
+
+.list-unstyled{
+    margin-top: 20px;
+    margin-left: 32px;
+    font-size: 24px;
+    line-height: 200%;
 }
 
 @media (max-width: 768px){
@@ -276,5 +293,15 @@ hr{
 
     .header-title{
         text-align: center;
+    }
+
+    /* .product-list{
+        text-align: center;
+    } */
+
+    .list-unstyled{
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 300px;
     }
 }
