@@ -204,7 +204,7 @@ let products = [
         category: "False Ceil"
     },
     {
-        name: "MET Tiles",
+        name: "MFT Tiles",
         category: "False Ceil"
     },
     {
@@ -384,9 +384,9 @@ let filterByCategories = (categorie, array) => {
 
 let createList = (categoryArray) => {
     let renderUI = categoryArray.map(product => {
-        return `<li>${product.name}</li>`
+        return `<li class="list-group-item">${product.name}</li>`
     })
-    let listToRender = `<ul class="list-unstyled">${renderUI.join('')}</ul>`
+    let listToRender = `<ul class="list-unstyled list-group">${renderUI.join('')}</ul>`
     return listToRender
 }
 
@@ -498,7 +498,7 @@ renderUI = `
     <h1>Protect Guards</h1>
     ${protectGuardList}
     <hr>
-    <h1>Timber Bead</h1>
+    <h1>Timber And Beading</h1>
     ${timberBeadList}
     <hr>
     <h1>Touch Switches</h1>
