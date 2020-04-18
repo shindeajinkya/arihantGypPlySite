@@ -200,7 +200,7 @@ let products = [
         category: "False Ceil"
     },
     {
-        name: "Grid Ceiling(24mm/15mm/Omega/Slhoute)",
+        name: "Grid Ceiling(24mm/15mm/Omega/Silhouete)",
         category: "False Ceil"
     },
     {
