@@ -1,3 +1,8 @@
+$('.carousel').carousel({
+    interval: 4000
+})
+
+
 let products = [
     {
         name: "Plain Sheet (Transparent)",
@@ -180,7 +185,7 @@ let products = [
         category: "False Ceil"
     },
     {
-        name: "PLaster Of Paris Bag",
+        name: "Plaster Of Paris Bag",
         category: "False Ceil"
     },
     {
@@ -232,7 +237,7 @@ let products = [
         category: "others"
     },
     {
-        name: "handles(Brass & StainlessSteel)",
+        name: "Handles (Brass & StainlessSteel)",
         category: "hardwarefitting"
     },
     {
@@ -340,23 +345,35 @@ let products = [
         category: "timberBead"
     },
     {
-        name: "Touch Switches",
-        category: "others"
+        name: "2 gang",
+        category: "touchSwitches"
+    },
+    {
+        name: "3 gang",
+        category: "touchSwitches"
+    },
+    {
+        name: "4 gang",
+        category: "touchSwitches"
+    },
+    {
+        name: "Wifi Enabled",
+        category: "touchSwitches"
     },
     {
         name: "Veneer",
         category: "others"
     },
     {
-        name: "45 Density",
+        name: ".45 Density",
         category: "WPC"
     },
     {
-        name: "50 Density",
+        name: ".50 Density",
         category: "WPC"
     },
     {
-        name: "60 Density",
+        name: ".60 Density",
         category: "WPC"
     },
     {
@@ -372,6 +389,7 @@ let products = [
         category: "others"
     },
 ]
+
 
 let productUIEl = document.querySelector('#product-list');
 
@@ -427,6 +445,8 @@ let particleboardList = createList(filterByCategories('particleboard', products)
 let protectGuardList = createList(filterByCategories('protectGuard', products))
 
 let timberBeadList = createList(filterByCategories('timberBead', products))
+
+let touchSwitchList = createList(filterByCategories('touchSwitches', products))
 
 let WPCList = createList(filterByCategories('WPC', products))
 
@@ -502,6 +522,7 @@ renderUI = `
     ${timberBeadList}
     <hr>
     <h1>Touch Switches</h1>
+    ${touchSwitchList}
     <hr>
     <h1>Veneer</h1>
     <hr>

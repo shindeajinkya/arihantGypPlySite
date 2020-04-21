@@ -1,6 +1,14 @@
 .container{
     margin: 0 auto;
 }
+
+.product-background{
+    background: linear-gradient(0deg, rgba(73, 73, 73, 0.6), rgba(73, 73, 73, 0.6)), url(../images/productbackground.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+
 .header-container{
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
     background-color: #ffffff;
@@ -53,6 +61,14 @@ nav{
     color: white;
 }
 
+.background-2{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background2.jpeg);
+}
+
+.background-3{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background3.jpeg);
+}
+
 .display-4{
     max-width: 430px;
     font-family: Roboto Slab;
@@ -62,6 +78,18 @@ nav{
     line-height: 95px;
     color: #ffffff;
     margin-bottom: 20px;
+}
+
+.background-2 .display-4{
+    max-width: 100%;
+    font-size: 56px;
+    line-height: 65px;
+}
+
+.background-3 .display-4{
+    max-width: 100%;
+    font-size: 56px;
+    line-height: 65px;
 }
 
 .lead{
@@ -136,6 +164,11 @@ nav{
     width: 345px;
     height: 341px;
     text-align: center;
+}
+
+.card a{
+    color: #000000;
+    text-decoration: none;
 }
 
 .card:hover{
@@ -222,9 +255,14 @@ footer{
     margin-top: 48px;
 }
 
+.product-head{
+    color: white;
+}
+
 .product-list h1{
     font-size: 40px;
     font-family: Roboto Slab;
+    color: white;
 }
 
 .list-unstyled{
@@ -272,6 +310,18 @@ footer{
     .display-4{
         font-size: 48px;
         line-height: 65px;
+    }
+
+    .background-2 .display-4{
+        max-width: 100%;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .background-3 .display-4{
+        max-width: 100%;
+        font-size: 28px;
+        line-height: 40px;
     }
 
     .lead{
