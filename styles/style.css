@@ -203,6 +203,10 @@ nav{
     text-align: center;
 }
 
+.whatsapp, .telephone{
+    text-decoration: underline;
+}
+
 .footer-container{
     height: 60px;
     background-color: #f2f2f2;
